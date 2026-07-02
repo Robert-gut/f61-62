@@ -1,0 +1,258 @@
+/* div{
+  text-align: center;
+}
+a{
+  margin: 10px;
+}
+
+img{
+  width: 250px;
+} */
+
+.container{
+  margin: 0 auto;
+  border: 2px solid black;
+  width: 600px;
+  height: 800px;
+  padding: 10px;
+}
+
+
+/* 1 */
+
+/* header{
+  margin: 5px;
+  border: 2px solid black;
+  height: 15%;
+}
+
+.box1{
+  margin: 5px;
+  border: 2px solid black;
+  width: 120px;
+  height: 500px;
+  float: left;
+}
+
+.box2{
+  margin: 5px;
+  border: 2px solid black;
+  width: 120px;
+  height: 500px;
+  float: right;
+}
+
+.box3{
+  margin: 5px;
+  border: 2px solid black;
+  width: 320px;
+  height: 610px;
+  float: right;
+}
+
+footer{
+  margin: 5px;
+  border: 2px solid black;
+  height: 5%;
+  clear: both;
+} */
+
+/* 2 */
+
+/* header{
+  margin: 5px;
+  border: 2px solid black;
+  height: 15%;
+}
+
+.box1{
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 500px;
+  float: left;
+}
+
+.box2{
+  margin: 5px;
+  border: 2px solid black;
+  width: 420px;
+  height: 600px;
+  float: right;
+}
+
+footer{
+  margin: 5px;
+  border: 2px solid black;
+  height: 7%;
+  clear: both;
+} */
+
+/* 3 */
+/* 
+header{
+  margin: 5px;
+  border: 2px solid black;
+  height: 15%;
+}
+
+.box1{
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 500px;
+  float: right;
+}
+
+.box2{
+  margin: 5px;
+  border: 2px solid black;
+  width: 420px;
+  height: 600px;
+  float: left;
+}
+
+footer{
+  margin: 5px;
+  border: 2px solid black;
+  height: 7%;
+  clear: both;
+} */
+
+/* div{
+  border: 1px solid black;
+}
+
+span{
+  position: absolute;
+}
+
+.A{
+  margin: 0 auto;
+  width: 700px;
+  height: 800px;
+  background-color: red;
+}
+
+.B{
+  width: 20%;
+  height: 760px;
+  background-color: #da750a;
+  margin: 15px;
+  float: left;
+}
+.C{
+  width:  70%;
+  height: 760px;
+  background-color: #f9e509;
+  margin: 15px;
+  float: left;
+}
+.D{
+  width:  95%;
+  height: 29%;
+  background-color: #1bb303;
+  margin: 15px;
+  float: left;
+}
+.E{
+  width:  30%;
+  height: 87%;
+  background-color: #035ed5;
+  margin: 15px;
+  float: left;
+}
+.F{
+  width:  56%;
+  height: 87%;
+  background-color: #3c053c;
+  margin: 15px;
+  float: left;
+}
+.H{
+  width:  38%;
+  height: 85%;
+  background-color: #525252;
+  margin: 15px;
+  float: left;
+}
+.G{
+  width:  37%;
+  height: 85%;
+  background-color: #8839c9;
+  margin: 15px;
+  float: left;
+}
+.I{
+  width: 70%;
+  height: 33%;
+  background-color: #d8d6db;
+  margin: 15px;
+  float: left;
+}
+
+.last_G{
+  width:  90%;
+  height: 85%;
+  background-color: #8839c9;
+  margin: 15px;
+  float: left;
+} */
+
+
+
+
+/* //////////////////////////////// */
+
+/* .test{
+  width: ;
+  height: ;
+  padding: ;
+  margin: ;
+  border: ;
+  color: ;
+  background: ;
+
+  text-align: ;
+  text-decoration: ;
+  text-transform: ;
+  font-size: ;
+  font-family: ;
+  font-weight: ;
+  font-style: ;
+} */
+/* //////////////////////////////// */
+
+.test{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+
+  margin: 0 auto;
+  /* float: left; */
+  /* text-align: center; */
+
+
+
+
+
+
+}
+
+img{
+  /* margin: 0 auto; */
+  text-align: center;
+}
+
+div{
+  text-align: center;
+}
+
+
+span{
+  width: 500px;
+  text-align: center;
+}
+
+/* //////////////////////////////// */

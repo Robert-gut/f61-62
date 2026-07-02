@@ -1,0 +1,128 @@
+.container{
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  /* opacity: 0.2; */
+
+  /*! градієнти */
+  /*? лінійні градієнти */
+  /* background: linear-gradient(blue, red); */
+  /* background: linear-gradient(to right, blue, red);
+  background: linear-gradient(to left, blue, red);
+  background: linear-gradient(to top, blue, red);
+  background: linear-gradient(to bottom, blue, red);
+
+  background: linear-gradient(to bottom left, blue, red);
+  background: linear-gradient(111deg, blue, red);
+  
+  background: linear-gradient(blue, rgb(183, 51, 51), rgba(171, 171, 47, 0.6), #008000, black);
+  background: linear-gradient(blue 80%, red);
+  background: linear-gradient(blue 0%, red 20%, yellow 35%, green 70%, black); */
+
+  /*? радіальні градієнти */
+  background: radial-gradient(red, blue);
+  background: radial-gradient(blue, rgb(183, 51, 51), rgba(171, 171, 47, 0.6), #008000, black);
+  /* background: radial-gradient(blue 0%, red 20%, yellow 35%, green 70%, black); */
+
+  background: radial-gradient(at 20% 0% ,red 10px, yellow 30%, #1e90ff 50%);
+
+  background: linear-gradient(354deg,rgba(42, 123, 155, 1) 0%, rgba(107, 45, 214, 1) 14%, rgba(200, 72, 177, 1) 32%, rgba(214, 39, 194, 1) 48%, rgba(112, 222, 33, 1) 65%, rgba(42, 125, 140, 1) 80%, rgba(162, 65, 65, 1) 90%, rgba(87, 199, 133, 1) 100%);
+
+  /*! border */
+  /* border:5px solid black; */
+
+  /* колір рамки */
+  /* border-color: #008000;
+  border-color: #6b2dd6;
+  border-color: black; */
+
+  /* розмір рамки */
+  /* border-width: 50px; */
+  /* border-width: 5px 10px 25px 50px; */
+
+  /* тип римки */
+  /* border-style: solid; */
+  /* border-style: dotted;
+  border-style: outset;
+  border-style: dashed;
+  border-style: hidden;
+  border-style: inset;
+  border-style: ridge; */
+
+  /* //////////////////////////////////// */
+  /* border-top: 50px solid red;
+  border-right: 50px outset rgb(68, 0, 255);
+  border-bottom: 50px dashed rgb(255, 255, 0);
+  border-left: 50px ridge rgb(255, 0, 251); */
+  /* //////////////////////////////////// */
+
+  /*! border-radius */
+  /* border-radius: 20px;
+  border-radius: 50px;
+  border-radius: 150px;
+  border-radius: 5%; */
+  /* border-radius: 50%; */
+
+  /* border-radius:10px 20px 40px 70px; */
+
+  /*!  тінні  box-shadow*/
+
+
+
+  
+  /*!box-shadow: x y blur size color*/
+  box-shadow:inset 20px 20px 8px 10px rgb(186, 14, 14);
+  
+  
+}
+
+
+/* ///////////////////////////////////////////////////// */
+.container::after {
+  content: '';
+  width: 0px;
+  height: 0px;
+  border-top: 100px solid red;
+  border-right: 100px solid transparent;
+  position: relative;
+  top: 600px;
+  
+}
+
+
+/* ///////////////////////////////////////////////////// */
+
+
+.test{
+  width: 500px;
+  height: 200px;
+  margin: 300px auto;
+  background-color: rgb(0, 213, 255);
+  border-radius: 40px;
+
+  /* box-shadow: 10px 10px 8px 0px grey; */
+
+  /* filter: drop-shadow(10px 10px 5px grey); */
+  
+  
+}
+
+.test::after {
+  content: '';
+  width: 0px;
+  height: 0px;
+  border-top: 50px solid rgb(0, 213, 255);
+  border-right: 50px solid transparent;
+  position: relative;
+  top: 250px;
+  left: 70px;
+}
+
+/*! :hover  */
+
+.test:hover{
+  filter: drop-shadow(10px 10px 5px grey);
+  /*! cursor */
+  cursor: pointer;
+}
+

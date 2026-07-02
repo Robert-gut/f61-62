@@ -1,0 +1,148 @@
+/* p{
+  color: blue;
+  font-size: 35px;
+  font-weight: 900;
+  background-color: brown;
+  text-transform: uppercase;
+} */
+
+/* Ctrl + /  */
+/*!  */
+/*?  */
+/**  */
+
+/* //////////////////////////////// */
+
+
+/*! Синтаксис css */
+
+slector{
+  properti: properti value;
+  properti: properti value;
+  properti: properti value;
+}
+/** селекто => властивість => значення властивості*/
+
+/*? Cелектор (типи селекторі 5)  */
+
+/*! 1 Селектор тега */
+/* p{
+  color: red;
+} */
+
+/*! 2 селекто id  # */
+
+#smallText{
+  color:chartreuse;
+}
+
+
+/*! 3 селектор class . */
+
+.classForLi{
+  font-size: 20px;
+  color:darkcyan;
+}
+
+/*! 4 селектор атрибута []  */
+
+[type="text"]{
+  border: 4px solid green;
+}
+
+/* ! 5 селетор все * 
+*{
+  text-align: center;
+} */
+
+/* /////////////////////////////////////////////////////////// */
+/*? всі параграфи які мають класс center  */
+/* p.center{
+  text-align: center;
+} */
+
+/* ? , */
+/* h1,h2,span,p{
+  text-transform: uppercase;
+}
+h1, .center, #id{
+
+} */
+
+
+/* /////////////////////////////////////////////////////////// */
+/* підключення шрифтві */
+@font-face {
+  font-family: nameFont;
+  src: url(../fonts/PlaywriteGBSGuides-Italic.ttf);
+}
+
+
+
+p{
+  /* шрифт */
+  /* font-family: nameFont; */
+  /* розмір текста */
+  /* font-size: 14px; */
+  /* стиль */
+  /* font-style: italic; */
+  /* ширина текста 100-900*/
+  /* font-weight: 900; */
+  /* вирівнювання  */
+  /* text-align: justify; */
+  /* регістер */
+  /* text-transform: capitalize; */
+  /* підчеркування */
+  /* text-decoration: underline; */
+  /* абзац */
+  /* text-indent: 20px;
+
+
+  border: 2px dashed red;
+
+  color: blue;
+  background-color: greenyellow; */
+
+  /* висота лінії */
+  /* line-height: 50px; */
+
+  /*! margin зовнішнимй відступ */
+  /* margin: 50px; */
+  /* margin: 10px 20px 30px 40px; */
+
+  /* margin-top: ;
+  margin-bottom: ;
+  margin-right: ;
+  margin-left: ; */
+
+  /*! paddin внутрішні відступ */
+  /* padding: 50px; */
+  /* padding: 10px 20px 30px 40px;
+
+  padding-top: ;
+  padding-bottom: ;
+  padding-right: ;
+  padding-left: ; */
+
+}
+
+
+.test{
+
+  color: aqua;
+  background-color: goldenrod;
+  
+  /* розміри */
+  width: 500px;
+  height: 300px;
+
+  /*внутрішні відступи */
+  padding: 50px;
+
+  /* рамка */
+  border: 4px solid red;
+
+  /* зовнішні відступи */
+  margin: 200px;
+
+}

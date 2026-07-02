@@ -1,0 +1,170 @@
+/* ? animaitin */
+/* ? властивість дозволяє конторолюівати кожний кадр вашої анімації і їх можу бути безліч */
+
+.content{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+
+  /*! назва анімації */
+  /* animation-name: example; */
+  /*! тривалість анісмації  */
+  /* animation-duration: 2s; */
+  /* ! прискорення */
+  /* animation-timing-function:  linear; */
+  /*! Затримка перед початком анімації */
+  /* animation-delay: 5s; */
+  /*! к-ть разів відпрацювання анімації  */
+  /* animation-iteration-count: 5; */
+  /* animation-iteration-count: infinite; */
+  /* ! наборот або пін понг */
+  /* animation-direction: alternate; */
+  /*! де буде кінець */
+  /* animation-fill-mode: forwards; */
+  /* ! пауза */
+  /* animation-play-state: paused; */
+
+  animation: example 3s linear 1s infinite alternate forwards;
+}
+
+.content:hover{
+  animation-play-state: paused;
+}
+
+@keyframes example {
+  /* from{
+  }
+  to{
+  } */
+
+  0%{
+    left: 0;
+  }
+  50%{
+    border-radius: 0%;
+    background-color: blue;
+  }
+  100%{
+    left: 90%;
+    background-color: yellowgreen;
+  }
+}
+
+/*? transition  */
+/* ? властивість дозволяє робити плавний перехід між першим станом до другого*/
+
+
+.square{
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  background-color: greenyellow;
+
+  /* ! властивості які будуть плавно змінюватися */
+  /* transition-property:  all; */
+  /* transition-property: background-color, width, height; */
+  /*! час за який будуть відбуватися зміни  */
+  /* transition-duration: 5s; */
+  /* transition-duration: 500ms, 1s, 5s; */
+  /*! прискорення  */
+  /* transition-timing-function: linear; */
+  /*! затримка */
+  /* transition-delay: 1s, 2s, 3s; */
+
+  /* transition: all 1s linear 1s; */
+  transition: all 1s;
+
+}
+
+.square:hover{
+  background-color: cornflowerblue;
+  width: 350px;
+  height: 350px;
+}
+
+
+/*? transform */
+
+.transform{
+  margin: 200px 200px;
+  border: 2px solid black; 
+  display: inline-block;
+
+  /* overflow: hidden; */
+
+}
+
+.transform img{
+  width: 400px;
+  transition: all 1s;
+
+  /* transform-origin: 0 0; */
+  transform-origin: bottom right;
+}
+
+.transform:hover img{
+  /*! обертання (-)*/
+  /* transform: rotate(180deg); */
+  /*! маштабування або на скільки разів збільшеться ел */
+  /* transform: scale(2); */
+  /*! зміщення  */
+  /* transform: translate(-50px, -50px); */
+  /* ! розтягування */
+  /* transform: skew(20deg, 20deg); */
+
+  /* ? опорна точка */
+  transform: rotate(90deg);
+}
+
+/*! filter  */
+
+.filter{
+  width: 750px;
+  margin: 100px auto;
+  background-color: red;
+}
+
+.filter img{
+  transition: all 1s linear;
+  cursor: pointer;
+}
+
+.filter img:hover{
+  /*! розмиття  в px  */
+  /* filter: blur(10px); */
+  
+  /*! тіні  */
+  /* filter: drop-shadow(20px 20px 5px red); */
+  
+  /*! Чорно білий  0% - 100% */
+  /* filter: grayscale(100%); */
+  
+  /*! Чорно білий  0% - 100% */
+  /* filter: grayscale(100%); */
+
+  /*! Яскравість, 100% */
+  /* filter: brightness(120%); */
+
+  /*! КОНТРАСТ, 100%*/
+  /* filter: contrast(100%); */
+
+  /*! КОЛІРНЕ КОЛЕСО , 360deg*/
+  /* filter: hue-rotate(60deg); */
+
+  /*! негатив % */
+  /* filter: invert(100%); */
+
+  /*! насищеність 100%  */
+  /* filter: saturate(100%); */
+
+  /*! ефект старого фото % 0-100%  */
+  /* filter: sepia(100%); */
+  
+  /*! прозорість 100%  */
+  /* filter: opacity(100%); */
+
+  /* filter: opacity(100%) sepia(100%) saturate(100%) hue-rotate(60deg); */
+}
+

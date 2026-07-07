@@ -1,0 +1,71 @@
+table, th, td{
+
+  /*! рамку таблиці  */
+  /* border: 2px solid black; */
+
+  /*! відстань між комірками  */
+  /* border-spacing: 5px 10px; */
+
+  /*! ЗАБЕРАЄ ПОДВОЄННЯ БОРДЕРІВ  */
+  /* border-collapse: collapse; */
+
+  /*! позиціювання заголовка  */
+  /* caption-side: bottom; */
+
+  /*! приховує всі пусті комірки */
+  /* empty-cells: hide; */
+  
+}
+
+/* thead{
+  color: red;
+} */
+
+/* tbody{
+  background-color: blue;
+} */
+
+tfoot{
+  /* height: 50px; */
+
+  /*! керування розміщенням контента в комірках (право ліво центер верх низ)  */
+  /* text-align: right;
+  vertical-align: middle; */
+
+}
+
+
+/*! ------------------------------------------------  */
+
+table, th, td{
+  border:1px solid rgb(71, 140, 159);
+  border-collapse: collapse;
+}
+
+thead{
+  background-color: #ccc;
+}
+
+thead tr td:nth-child(1),
+tbody tr td:nth-child(1){
+  width: 300px;
+}
+
+tbody tr td:nth-child(2){
+  background-color: rgb(126, 179, 252);
+}
+tbody tr td:nth-child(3){
+  background-color: rgb(253, 149, 149);
+}
+
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(3){
+  text-align: center;
+  width: 60px;
+  height: 25px;
+}
+
+tfoot{
+  color: red;
+  text-align: center;
+}

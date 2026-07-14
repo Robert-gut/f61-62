@@ -1,0 +1,127 @@
+.item{
+  border: 2px solid green;
+  color: red;
+  font-size: 25px;
+  padding: 15px;
+  font-weight:  900;
+  border-radius: 10px;
+}
+
+.container{
+  border: 3px solid rgb(19, 0, 128);
+  height: 95vh;
+  padding: 5px;
+
+
+  /*! включаємо грвіди для даного блока*/
+  display: grid;
+
+  /*! створює шаблон СТОВПЦІВ grid-template-columns */
+  /* grid-template-columns: 100px 100px 100px 100px; */
+  /* grid-template-columns: 100px 200px 300px; */
+  /* grid-template-columns: 20% 50% 20% 10%; */
+  /* grid-template-columns: 150px 150px 150px; */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 20% 1fr 300px; */
+  /* grid-template-columns: repeat(8, 1fr); */
+  /* grid-template-columns: repeat(8, 50px 100px 200px); */
+
+  /*! створює шаблон РЯДКИ grid-template-rows */
+  /* grid-template-rows: 150px 150px 150px; */
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  /*! відстань між КЛІТИНКАМИ */
+  /* column-gap: 20px; */
+  /* row-gap: 10px; */
+  /* gap: 20px; */
+  gap: 20px 10px;
+
+  /*! розмір по висотті або по ширині можемо обмежити по мак і мінемальному розмірі */
+  /* grid-auto-rows: minmax(140px, 150px); */
+
+
+  /*! вирівнювання всього контента */
+  /*? по горизонту*/
+  /* justify-content: center; */
+  /*? по вертикалі*/
+  /* align-content: space-around; */
+
+  /*! вирівнювання самих елементів в середині комірок */
+  /*? по горизонту*/
+  /* justify-items: center; */
+  /*? по вертикалі*/
+  /* align-items: center; */
+}
+
+.item1, .item4{
+  /*! вирівнювання елементів в середині окремої комірки*/
+  /*? по горизонту*/
+  /* justify-self: end; */
+  /*? по вертикалі*/
+  /* align-self: end; */
+}
+
+
+/*! --------------------  СКІЛЬКИ І ДЕ БУДЕ ЗАЙЦМАТИ ЦЕЙ ЕЛЕМЕНТ МІСЦЯ ----------------------  */
+
+.item1{
+ /*! розміщувати елементи по горизонталі*/
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+  /* grid-column: 1/3; */
+
+  /*! span к-ть клітинок */
+  grid-column: span 3;
+
+ /*! розміщувати елементи по вертикалі*/
+ /* grid-row-start: 1;
+ grid-row-end: 3; */
+ /* grid-row: 1/3; */
+}
+
+.item2{
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+/*! --------------------  СКІЛЬКИ І ДЕ БУДЕ ЗАЙЦМАТИ ЦЕЙ ЕЛЕМЕНТ МІСЦЯ ----------------------  */
+
+/*--------------------------------------  */
+
+
+.container2{
+  display: grid;
+  grid-template-areas: 
+  'header header header'
+  'navbar navbar navbar'
+  'sidebar main section'
+  'footer footer footer'
+  ;
+
+  gap: 10px;
+  grid-template-columns: 250px 1fr 200px;
+  grid-template-rows: 150px 50px 1fr 80px;
+
+}
+.header{
+ grid-area: header;
+}
+
+.navbar{
+ grid-area: navbar;
+}
+
+.sidebar{
+ grid-area: sidebar;
+}
+
+.main{
+ grid-area: main;
+}
+.section{
+ grid-area: section;
+}
+.footer{
+ grid-area: footer;  
+}
+/*--------------------------------------  */
